@@ -16,14 +16,19 @@ createApp({
         getToDoList() {
             axios.get('./server.php').then(response => {
 
-               this.toDoList = response.data;
-               console.log(response.data)
+                this.toDoList = response.data;
+                console.log(response.data)
 
             });
         },
 
         addNewToDo() {
-            this.toDoList.push(this.toDoItem);
+            let newToDoObj = {
+                element: this.toDoItem,
+                isDone: false
+            }
+
+            this.toDoList.push(newToDoObj);
             this.toDoItem = '';
         },
 
