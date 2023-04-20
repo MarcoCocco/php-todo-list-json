@@ -1,0 +1,22 @@
+[
+    {
+        "element": "Fare la lavatrice",
+        "isDone": false 
+    },
+    {
+        "element": "Fare la spesa",
+        "isDone": false 
+    },
+    {
+        "element": "Fare la Giocare al nuovo videogioco",
+        "isDone": false 
+    },
+    {
+        "element": "Fare una passeggiata",
+        "isDone": false 
+    },
+    {
+        "element": "Portare il cane dal veterinario",
+        "isDone": false 
+    }
+]
